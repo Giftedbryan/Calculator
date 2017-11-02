@@ -1,0 +1,10 @@
+C:\Users\Giftedbryan\source\repos\Calcproject\Calcproject\bin\Debug\Calcproject.exe.config
+C:\Users\Giftedbryan\source\repos\Calcproject\Calcproject\bin\Debug\Calcproject.exe
+C:\Users\Giftedbryan\source\repos\Calcproject\Calcproject\bin\Debug\Calcproject.pdb
+C:\Users\Giftedbryan\source\repos\Calcproject\Calcproject\obj\Debug\Calcproject.csprojResolveAssemblyReference.cache
+C:\Users\Giftedbryan\source\repos\Calcproject\Calcproject\obj\Debug\Calcproject.Properties.Resources.resources
+C:\Users\Giftedbryan\source\repos\Calcproject\Calcproject\obj\Debug\Calcproject.csproj.GenerateResource.Cache
+C:\Users\Giftedbryan\source\repos\Calcproject\Calcproject\obj\Debug\Calcproject.csproj.CoreCompileInputs.cache
+C:\Users\Giftedbryan\source\repos\Calcproject\Calcproject\obj\Debug\Calcproject.exe
+C:\Users\Giftedbryan\source\repos\Calcproject\Calcproject\obj\Debug\Calcproject.pdb
+C:\Users\Giftedbryan\source\repos\Calcproject\Calcproject\obj\Debug\Calcproject.App.resources

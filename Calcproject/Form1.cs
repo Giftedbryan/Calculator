@@ -236,7 +236,7 @@ namespace Calcproject
 
         private void Bc_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "1";
+            textBox1.Text = "0";
         }
     }
 }

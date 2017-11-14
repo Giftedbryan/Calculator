@@ -120,7 +120,7 @@ namespace Calcproject
         }
         private void n9_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" && textBox1.Text != null)
+            if (textBox1.Text == "0" && textBox1.Text != null)
             {
                 textBox1.Text = "9";
             }
@@ -165,56 +165,78 @@ namespace Calcproject
 
         private void Bce_Click(object sender, EventArgs e)
         {
+            textBox1.Text = "0";
+            FirstNumber = 0 ;
+            Operation = " ";
+        }
+
+        private void bpercent_Click(object sender, EventArgs e)
+        {
             FirstNumber = Convert.ToDouble(textBox1.Text);
             textBox1.Text = "0";
-            Operation = "/";
+            Operation = "%";
         }
 
         private void bequals_Click(object sender, EventArgs e)
         {
             double SecondNumber;
             double Result;
-
+            
             SecondNumber = Convert.ToDouble(textBox1.Text);
 
             if (Operation == "+")
             {
                 Result = (FirstNumber + SecondNumber);
-                textBox1.Text = Convert.ToString(Result);
+                Convert.ToString(Result);
+                textBox1.Text = Result.ToString("#.##");
                 FirstNumber = Result;
             }
             if (Operation == "-")
             {
                 Result = (FirstNumber - SecondNumber);
-                textBox1.Text = Convert.ToString(Result);
+                Convert.ToString(Result);
+                textBox1.Text = Result.ToString("#.##");
                 FirstNumber = Result;
             }
             if (Operation == "*")
             {
                 Result = (FirstNumber * SecondNumber);
-                textBox1.Text = Convert.ToString(Result);
+                Convert.ToString(Result);
+                textBox1.Text = Result.ToString("#.##");
                 FirstNumber = Result;
             }
             if (Operation == "/")
             {
                 if (SecondNumber == 0)
                 {
-                    textBox1.Text = "Cannot divide by zero";
+                    textBox1.Text = "Cannot divide by zero ya big dummy";
 
                 }
                 else
                 {
                     Result = (FirstNumber / SecondNumber);
-                    textBox1.Text = Convert.ToString(Result);
+                    Convert.ToString(Result);
+                    textBox1.Text = Result.ToString("#.##");
                     FirstNumber = Result;
                 }
 
+            }
+            if (Operation == "%")
+            {
+                Result = (SecondNumber / FirstNumber * 100);
+                textBox1.Text = Convert.ToString(Result);
+                FirstNumber = Result;
             }
         }
 
         private void ndot_Click_1(object sender, EventArgs e)
         {
             textBox1.Text = textBox1.Text + ".";
+        }
+
+        private void Bc_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "0";
         }
     }
 }

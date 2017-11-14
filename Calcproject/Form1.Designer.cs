@@ -46,14 +46,17 @@
             this.bmin = new System.Windows.Forms.Button();
             this.bdiv = new System.Windows.Forms.Button();
             this.ndot = new System.Windows.Forms.Button();
+            this.bpercent = new System.Windows.Forms.Button();
+            this.Bc = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(13, 13);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(524, 22);
+            this.textBox1.Size = new System.Drawing.Size(524, 49);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "0";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -61,7 +64,8 @@
             // 
             // n1
             // 
-            this.n1.Location = new System.Drawing.Point(13, 41);
+            this.n1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n1.Location = new System.Drawing.Point(13, 68);
             this.n1.Name = "n1";
             this.n1.Size = new System.Drawing.Size(100, 100);
             this.n1.TabIndex = 1;
@@ -71,7 +75,7 @@
             // 
             // n0
             // 
-            this.n0.Location = new System.Drawing.Point(119, 359);
+            this.n0.Location = new System.Drawing.Point(13, 385);
             this.n0.Name = "n0";
             this.n0.Size = new System.Drawing.Size(100, 100);
             this.n0.TabIndex = 2;
@@ -81,7 +85,7 @@
             // 
             // n9
             // 
-            this.n9.Location = new System.Drawing.Point(225, 253);
+            this.n9.Location = new System.Drawing.Point(225, 280);
             this.n9.Name = "n9";
             this.n9.Size = new System.Drawing.Size(100, 100);
             this.n9.TabIndex = 3;
@@ -91,7 +95,7 @@
             // 
             // n8
             // 
-            this.n8.Location = new System.Drawing.Point(119, 253);
+            this.n8.Location = new System.Drawing.Point(119, 280);
             this.n8.Name = "n8";
             this.n8.Size = new System.Drawing.Size(100, 100);
             this.n8.TabIndex = 4;
@@ -101,7 +105,7 @@
             // 
             // n7
             // 
-            this.n7.Location = new System.Drawing.Point(13, 253);
+            this.n7.Location = new System.Drawing.Point(13, 280);
             this.n7.Name = "n7";
             this.n7.Size = new System.Drawing.Size(100, 100);
             this.n7.TabIndex = 5;
@@ -111,7 +115,7 @@
             // 
             // n6
             // 
-            this.n6.Location = new System.Drawing.Point(225, 147);
+            this.n6.Location = new System.Drawing.Point(225, 174);
             this.n6.Name = "n6";
             this.n6.Size = new System.Drawing.Size(100, 100);
             this.n6.TabIndex = 6;
@@ -121,7 +125,7 @@
             // 
             // n5
             // 
-            this.n5.Location = new System.Drawing.Point(119, 147);
+            this.n5.Location = new System.Drawing.Point(119, 174);
             this.n5.Name = "n5";
             this.n5.Size = new System.Drawing.Size(100, 100);
             this.n5.TabIndex = 7;
@@ -131,7 +135,7 @@
             // 
             // n4
             // 
-            this.n4.Location = new System.Drawing.Point(13, 147);
+            this.n4.Location = new System.Drawing.Point(13, 174);
             this.n4.Name = "n4";
             this.n4.Size = new System.Drawing.Size(100, 100);
             this.n4.TabIndex = 8;
@@ -141,7 +145,7 @@
             // 
             // n3
             // 
-            this.n3.Location = new System.Drawing.Point(225, 41);
+            this.n3.Location = new System.Drawing.Point(225, 68);
             this.n3.Name = "n3";
             this.n3.Size = new System.Drawing.Size(100, 100);
             this.n3.TabIndex = 9;
@@ -151,9 +155,9 @@
             // 
             // n2
             // 
-            this.n2.Location = new System.Drawing.Point(119, 41);
+            this.n2.Location = new System.Drawing.Point(119, 66);
             this.n2.Name = "n2";
-            this.n2.Size = new System.Drawing.Size(100, 100);
+            this.n2.Size = new System.Drawing.Size(101, 100);
             this.n2.TabIndex = 10;
             this.n2.Text = "2";
             this.n2.UseVisualStyleBackColor = true;
@@ -161,7 +165,7 @@
             // 
             // bmult
             // 
-            this.bmult.Location = new System.Drawing.Point(331, 147);
+            this.bmult.Location = new System.Drawing.Point(331, 279);
             this.bmult.Name = "bmult";
             this.bmult.Size = new System.Drawing.Size(100, 100);
             this.bmult.TabIndex = 11;
@@ -171,7 +175,7 @@
             // 
             // bequals
             // 
-            this.bequals.Location = new System.Drawing.Point(437, 253);
+            this.bequals.Location = new System.Drawing.Point(436, 280);
             this.bequals.Name = "bequals";
             this.bequals.Size = new System.Drawing.Size(100, 206);
             this.bequals.TabIndex = 12;
@@ -181,7 +185,7 @@
             // 
             // bad
             // 
-            this.bad.Location = new System.Drawing.Point(331, 359);
+            this.bad.Location = new System.Drawing.Point(225, 385);
             this.bad.Name = "bad";
             this.bad.Size = new System.Drawing.Size(100, 100);
             this.bad.TabIndex = 13;
@@ -191,7 +195,7 @@
             // 
             // Bce
             // 
-            this.Bce.Location = new System.Drawing.Point(437, 41);
+            this.Bce.Location = new System.Drawing.Point(436, 68);
             this.Bce.Name = "Bce";
             this.Bce.Size = new System.Drawing.Size(100, 100);
             this.Bce.TabIndex = 14;
@@ -201,7 +205,7 @@
             // 
             // bmin
             // 
-            this.bmin.Location = new System.Drawing.Point(331, 253);
+            this.bmin.Location = new System.Drawing.Point(331, 386);
             this.bmin.Name = "bmin";
             this.bmin.Size = new System.Drawing.Size(100, 100);
             this.bmin.TabIndex = 15;
@@ -211,7 +215,7 @@
             // 
             // bdiv
             // 
-            this.bdiv.Location = new System.Drawing.Point(331, 41);
+            this.bdiv.Location = new System.Drawing.Point(331, 173);
             this.bdiv.Name = "bdiv";
             this.bdiv.Size = new System.Drawing.Size(100, 100);
             this.bdiv.TabIndex = 16;
@@ -221,19 +225,41 @@
             // 
             // ndot
             // 
-            this.ndot.Location = new System.Drawing.Point(225, 358);
+            this.ndot.Location = new System.Drawing.Point(119, 386);
             this.ndot.Name = "ndot";
             this.ndot.Size = new System.Drawing.Size(100, 100);
             this.ndot.TabIndex = 17;
-            this.ndot.Text = ".";
+            this.ndot.Text = ",";
             this.ndot.UseVisualStyleBackColor = true;
             this.ndot.Click += new System.EventHandler(this.ndot_Click_1);
+            // 
+            // bpercent
+            // 
+            this.bpercent.Location = new System.Drawing.Point(331, 68);
+            this.bpercent.Name = "bpercent";
+            this.bpercent.Size = new System.Drawing.Size(100, 100);
+            this.bpercent.TabIndex = 18;
+            this.bpercent.Text = "%";
+            this.bpercent.UseVisualStyleBackColor = true;
+            this.bpercent.Click += new System.EventHandler(this.bpercent_Click);
+            // 
+            // Bc
+            // 
+            this.Bc.Location = new System.Drawing.Point(436, 174);
+            this.Bc.Name = "Bc";
+            this.Bc.Size = new System.Drawing.Size(100, 100);
+            this.Bc.TabIndex = 19;
+            this.Bc.Text = "C";
+            this.Bc.UseVisualStyleBackColor = true;
+            this.Bc.Click += new System.EventHandler(this.Bc_Click);
             // 
             // app
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 470);
+            this.ClientSize = new System.Drawing.Size(548, 500);
+            this.Controls.Add(this.Bc);
+            this.Controls.Add(this.bpercent);
             this.Controls.Add(this.ndot);
             this.Controls.Add(this.bdiv);
             this.Controls.Add(this.bmin);
@@ -279,6 +305,8 @@
         private System.Windows.Forms.Button bmin;
         private System.Windows.Forms.Button bdiv;
         private System.Windows.Forms.Button ndot;
+        private System.Windows.Forms.Button bpercent;
+        private System.Windows.Forms.Button Bc;
     }
 }
 
